@@ -1,0 +1,120 @@
+/* .debug{
+    border: 1px solid black;
+} */
+
+body{
+    background-image: url(../images/main_background.jpg);
+    margin: 0;
+    padding: 0;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-family: 'Permanent Marker', cursive;
+    position: absolute;
+}
+/* middle flexboxes*/
+.flexbox {
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.flexbox_1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    flex: 1    
+}
+
+#name {
+    display:none;
+}
+/* card */
+.flexbox_2{ 
+    position: relative;
+    display: block;
+    background-image: url(../images/background.png); 
+    background-size: cover;
+    background-position-y: -70px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 120px -25px rgba(0,0,0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    flex: 2;
+
+}/*here the API content is displayed*/
+.flexbox_2_1{
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    left: 10%;
+    /* color: yellow;
+    text-shadow: black 2px 2px 2px 2px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 3;
+    /* the brightness makes the image black*/
+    filter: brightness(0%); 
+}
+.flexbox_2_2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.flexbox_3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+/*the flexbox on the bottom of the screen*/
+.flexboxbottom {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.flexboxbottom_1{
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+.flexboxbottom_2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.flexboxbottom_3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
